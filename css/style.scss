@@ -28,6 +28,9 @@ $quinary: #f0f7da;
                 display: inline-block;
                 margin: 45px 10px;
                 a {
+                    color: $tertiary;
+                    font-family: 'Ubuntu', 'Arial';
+                    text-decoration: none;
                     &:hover {
                         color: $quaternary;
                     }
@@ -49,4 +52,44 @@ main {
     font-size: 15px;
     text-align: center;
     color: $tertiary;
+    p {
+        margin: 5px;
+    }
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+            margin: 5px;
+            a {
+                text-decoration: none;
+                color: $tertiary;
+                font-size: 20px;
+                &:hover {
+                    color: $quaternary;
+                }
+            }
+        }
+    }
+}
+
+.erro {
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-family: 'Ubuntu', 'Arial';
+        text-transform: uppercase;
+    }
+    a {
+        color: $primary;
+        &:hover {
+            color: $secondary;
+        }
+    }
+    text-align: center;
+    margin: 120px 200px;
+    background-color: $quinary;
+    padding: 50px;
+    color: red;
 }

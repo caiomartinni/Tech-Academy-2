@@ -19,8 +19,12 @@
       .header .header-nav ul li {
         display: inline-block;
         margin: 45px 10px; }
-        .header .header-nav ul li a:hover {
-          color: #b5e8c3; }
+        .header .header-nav ul li a {
+          color: #65b8a6;
+          font-family: 'Ubuntu', 'Arial';
+          text-decoration: none; }
+          .header .header-nav ul li a:hover {
+            color: #b5e8c3; }
 
 main {
   padding: 10px;
@@ -33,5 +37,35 @@ main {
   font-size: 15px;
   text-align: center;
   color: #65b8a6; }
+  .footer p {
+    margin: 5px; }
+  .footer ul {
+    list-style: none; }
+    .footer ul li {
+      display: inline-block;
+      margin: 5px; }
+      .footer ul li a {
+        text-decoration: none;
+        color: #65b8a6;
+        font-size: 20px; }
+        .footer ul li a:hover {
+          color: #b5e8c3; }
+
+.erro {
+  text-align: center;
+  margin: 120px 200px;
+  background-color: #f0f7da;
+  padding: 50px;
+  color: red; }
+  .erro p {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .erro h1 {
+    font-family: 'Ubuntu', 'Arial';
+    text-transform: uppercase; }
+  .erro a {
+    color: #1f192f; }
+    .erro a:hover {
+      color: #2d6073; }
 
 /*# sourceMappingURL=style.css.map */
