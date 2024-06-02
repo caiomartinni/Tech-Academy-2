@@ -45,9 +45,43 @@
                         Contato
                     </a>
                 </li>
-            
+            </ul>
+        </nav>
+        <a href="javascript:mostrarMenu()" title="menu">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </header>
+        <nav class="mobile-menu">
+        <ul>
+                <li>
+                    <a href="index.php?pagina=home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php?pagina=jogos">
+                        Catálogo
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php?pagina=sobre">
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php?pagina=contato">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
+        <script>
+            function mostrarMenu () {
+                var menu = document.querySelector(".mobile-menu");
+                menu.classList.toggle("show");
+            }
+        </script>
     <main>
         <?php
         //imprimir o conteúdo do array do GET
