@@ -1,0 +1,28 @@
+/* Paleta de cores */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abel', 'Arial';
+}
+
+header {
+  padding: 15px;
+  background-color: #2d6073;
+  font-size: 50px;
+}
+header img {
+  width: 120px;
+}
+header i {
+  margin-top: 40px;
+  margin-right: 40px;
+  float: inline-end;
+}
+
+main {
+  padding: 10px;
+  color: #f0f7da;
+  background-color: #1f192f;
+}
+
+/*# sourceMappingURL=style.css.map */
