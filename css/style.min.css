@@ -1,0 +1,38 @@
+*{margin:0;padding:0;font-family:Abel,Arial}
+.header{padding:10px;background-color:#2d6073;font-size:25px}
+.header i{display:none}
+.header img{width:120px}
+.header .header-nav{color:#65b8a6;text-transform:uppercase;float:right}
+.header .header-nav ul{list-style:none}
+.header .header-nav ul li{display:inline-block;margin:45px 10px}
+.header .header-nav ul li a{color:#65b8a6;font-family:Ubuntu,Arial;text-decoration:none}
+.header .header-nav ul li a:hover{color:#b5e8c3}
+.mobile-menu{display:none}
+.show{display:flex}
+main{padding:10px;color:#f0f7da;background-color:#1f192f}
+.footer{padding:10px;background-color:#2d6073;font-size:15px;text-align:center;color:#65b8a6}
+.footer p{margin:5px}
+.footer ul{list-style:none}
+.footer ul li{display:inline-block;margin:5px}
+.footer ul li a{text-decoration:none;color:#65b8a6;font-size:20px}
+.footer ul li a:hover{color:#b5e8c3}
+.erro{text-align:center;margin:120px 200px;background-color:#f0f7da;padding:50px;color:red}
+.erro p{margin-top:5px;margin-bottom:5px}
+.erro h1{font-family:Ubuntu,Arial;text-transform:uppercase}
+.erro a{color:#1f192f}
+.erro a:hover{color:#2d6073}
+form{margin:20px;padding:20px}
+form h1{font-family:Ubuntu,Arial}
+form label{font-size:20px}
+form input,form textarea{border:2px solid #f0f7da;padding:5px;border-radius:3px;margin:3px 0;width:300px}
+form button{font-size:15px;border:none;font-family:Abel,Arial;padding:10px;border-radius:3px;margin:3px 0;display:flex;background-color:#2d6073;color:#65b8a6}
+form button p{margin-left:5px}
+form button:hover{background-color:#b5e8c3;color:#1f192f}
+@media (max-width:500px){
+.header-nav{display:none}
+.header i{display:flex;float:right;font-size:50px;margin:20px;margin-top:35px;color:#65b8a6}
+.mobile-menu{width:100%;background-color:#2d6073;text-transform:uppercase;margin:auto}
+.mobile-menu ul{list-style:none}
+.mobile-menu ul li{margin:5px}
+.mobile-menu ul li a{text-decoration:none;font-weight:700;color:#65b8a6;font-size:23px;font-family:Ubuntu,Arial}
+}
