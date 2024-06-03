@@ -93,14 +93,14 @@ main {
         text-transform: uppercase;
     }
     a {
-        color: $primary;
+        color: $quinary;
         &:hover {
-            color: $secondary;
+            color: red;
         }
     }
     text-align: center;
     margin: 120px 200px;
-    background-color: $quinary;
+    background-color: $primary;
     padding: 50px;
     color: red;
 }

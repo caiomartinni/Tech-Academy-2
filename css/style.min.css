@@ -16,11 +16,11 @@ main{padding:10px;color:#f0f7da;background-color:#1f192f}
 .footer ul li{display:inline-block;margin:5px}
 .footer ul li a{text-decoration:none;color:#65b8a6;font-size:20px}
 .footer ul li a:hover{color:#b5e8c3}
-.erro{text-align:center;margin:120px 200px;background-color:#f0f7da;padding:50px;color:red}
+.erro{text-align:center;margin:120px 200px;background-color:#1f192f;padding:50px;color:red}
 .erro p{margin-top:5px;margin-bottom:5px}
 .erro h1{font-family:Ubuntu,Arial;text-transform:uppercase}
-.erro a{color:#1f192f}
-.erro a:hover{color:#2d6073}
+.erro a{color:#f0f7da}
+.erro a:hover{color:red}
 form{margin:20px;padding:20px}
 form h1{font-family:Ubuntu,Arial}
 form label{font-size:20px}
