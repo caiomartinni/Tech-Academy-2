@@ -29,7 +29,7 @@ $quinary: #f0f7da;
             list-style: none;
             li {
                 display: inline-block;
-                margin: 45px 10px;
+                margin: 45px 10px 0px 10px;
                 a {
                     color: $tertiary;
                     font-family: 'Ubuntu', 'Arial';
@@ -52,7 +52,7 @@ $quinary: #f0f7da;
 }
 
 main {
-    padding: 10px;
+    padding: 0px;
     color: $quinary;
     background-color: $primary; 
 }
@@ -68,6 +68,8 @@ main {
     }
     ul {
         list-style: none;
+        padding: 0px;
+        margin: 5px;
         li {
             display: inline-block;
             margin: 5px;
@@ -107,7 +109,8 @@ main {
 
 form {
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
     h1 {
         font-family: 'Ubuntu', 'Arial';
     }
@@ -121,16 +124,20 @@ form {
         margin: 3px 0px;
         width: 300px;
     }
-    button {
+    .botao {
         font-size: 15px;
         border: none;
         font-family: 'Abel', 'Arial';
-        padding: 10px;
+        padding: 5px;
         border-radius: 3px;
-        margin: 3px 0px;
+        margin: 0 auto;
         display: flex;
         background-color: $secondary;
         color: $tertiary;
+        i {
+            margin-right: 3px;
+            margin-top: 3px;
+        }
         p {
             margin-left: 5px;
         }
@@ -141,10 +148,28 @@ form {
     }
 }
 
+.carousel{
+    width: 100%;
+    margin: auto;
+}
+.carousel-pc {
+    display: flex;
+}
+.carousel-mobile {
+    display: none;
+}
 
-
+.card {
+    background-color: #b5e8c3!important;
+}
 
 @media(max-width: 500px) {
+    .carousel-pc {
+        display: none;
+    }
+    .carousel-mobile {
+        display: flex;
+    }
     .header-nav {
         display: none;
     }

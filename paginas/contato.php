@@ -9,8 +9,8 @@
     <label for="mensagem">Mensagem:</label> <br>
     <textarea for="mensagem" placeholder="Escreva uma mensagem"></textarea> <br>
     <br>
-    <button>
+    <button class="botao">
         <i class="fa-solid fa-paper-plane"></i>
-        <p>ENVIAR</p>
+        ENVIAR
     </button>
 </form>
