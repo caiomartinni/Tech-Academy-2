@@ -1,44 +1,11 @@
-*{margin:0;padding:0;font-family:Abel,Arial}
-.header{padding:10px;background-color:#2d6073;font-size:25px}
-.header i{display:none}
-.header img{width:120px}
-.header .header-nav{color:#65b8a6;text-transform:uppercase;float:right}
-.header .header-nav ul{list-style:none}
-.header .header-nav ul li{display:inline-block;margin:45px 10px 0 10px}
-.header .header-nav ul li a{color:#65b8a6;font-family:Ubuntu,Arial;text-decoration:none}
-.header .header-nav ul li a:hover{color:#b5e8c3}
-.mobile-menu{display:none}
-.show{display:flex}
-main{padding:0;color:#f0f7da;background-color:#1f192f}
-.footer{padding:10px;background-color:#2d6073;font-size:15px;text-align:center;color:#65b8a6}
-.footer p{margin:5px}
-.footer ul{list-style:none;padding:0;margin:5px}
-.footer ul li{display:inline-block;margin:5px}
-.footer ul li a{text-decoration:none;color:#65b8a6;font-size:20px}
-.footer ul li a:hover{color:#b5e8c3}
-.erro{text-align:center;margin:120px 200px;background-color:#1f192f;padding:50px;color:red}
-.erro p{margin-top:5px;margin-bottom:5px}
-.erro h1{font-family:Ubuntu,Arial;text-transform:uppercase}
-.erro a{color:#f0f7da}
-.erro a:hover{color:red}
-form{margin:20px;padding:10px;text-align:center}
-form h1{font-family:Ubuntu,Arial}
-form label{font-size:20px}
-form input,form textarea{border:2px solid #f0f7da;padding:5px;border-radius:3px;margin:3px 0;width:300px}
-form .botao{font-size:15px;border:none;font-family:Abel,Arial;padding:5px;border-radius:3px;margin:0 auto;display:flex;background-color:#2d6073;color:#65b8a6}
-form .botao i{margin-right:3px;margin-top:3px}
-form .botao p{margin-left:5px}
-form .botao:hover{background-color:#b5e8c3;color:#1f192f}
-.carousel{width:100%;margin:auto}
-.carousel-pc{display:flex}
-.carousel-mobile{display:none}
-@media (max-width:500px){
-.carousel-pc{display:none}
-.carousel-mobile{display:flex}
-.header-nav{display:none}
-.header i{display:flex;float:right;font-size:50px;margin:20px;margin-top:35px;color:#65b8a6}
-.mobile-menu{width:100%;background-color:#2d6073;text-transform:uppercase;margin:auto}
-.mobile-menu ul{list-style:none}
-.mobile-menu ul li{margin:5px}
-.mobile-menu ul li a{text-decoration:none;font-weight:700;color:#65b8a6;font-size:23px;font-family:Ubuntu,Arial}
-}
+body{background-color:#b5d7ff!important}
+.navbar{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma!important;background:#012677!important}
+.navbar .nav-link{color:#fff!important}
+.navbar .nav-link:hover{color:#00b4fc!important}
+main{background:#b5d7ff}
+main p{margin:0}
+footer{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background:#012677!important;padding:20px}
+footer p{color:#fff;margin:0}
+.card{margin:15px}
+.card .card-title{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;font-weight:700}
+.card .card-text{font-family:Nunito,"Segoe UI",Arial,Tahoma}
