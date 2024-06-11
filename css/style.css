@@ -12,6 +12,13 @@ body {
 .navbar .nav-link:hover {
   color: #00b4fc !important;
 }
+.navbar span .navbar-toggler-icon {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+  background-color: white;
+}
 
 main {
   background: #b5d7ff;
@@ -30,7 +37,38 @@ footer p {
   margin: 0;
 }
 
+.container h1 {
+  font-family: "Exo 2", "Nunito", "Segoe UI", "Arial", "Tahoma";
+  color: #012677;
+}
+.container .imagem {
+  float: left;
+}
+.container .imagem img {
+  width: 60%;
+}
+.container .info {
+  float: right;
+}
+
+.container-box {
+  width: 90%;
+  margin: auto;
+}
+
+.container-cards {
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.col {
+  margin: auto;
+}
+
 .card {
+  border: 1px solid #012677 !important;
+  display: flex;
+  margin: auto;
   margin: 15px;
 }
 .card .card-title {
@@ -39,6 +77,27 @@ footer p {
 }
 .card .card-text {
   font-family: "Nunito", "Segoe UI", "Arial", "Tahoma";
+}
+.card .btn {
+  margin-top: 10px;
+  font-family: "Exo 2", "Nunito", "Segoe UI", "Arial", "Tahoma";
+  background-color: #012677;
+  border: none;
+}
+.card .btn:hover {
+  background-color: #00b4fc;
+}
+
+.card-info {
+  background-color: #b5d7ff;
+  border: 1px solid #01267700 !important;
+  border-radius: 0 !important;
+}
+.card-info .card-title {
+  color: #012677;
+}
+.card-info i {
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

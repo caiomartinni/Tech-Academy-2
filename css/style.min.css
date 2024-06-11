@@ -2,10 +2,24 @@ body{background-color:#b5d7ff!important}
 .navbar{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma!important;background:#012677!important}
 .navbar .nav-link{color:#fff!important}
 .navbar .nav-link:hover{color:#00b4fc!important}
+.navbar span .navbar-toggler-icon{color:#fff}
+.navbar .navbar-toggler{color:#fff;background-color:#fff}
 main{background:#b5d7ff}
 main p{margin:0}
 footer{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background:#012677!important;padding:20px}
 footer p{color:#fff;margin:0}
-.card{margin:15px}
+.container h1{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;color:#012677}
+.container .imagem{float:left}
+.container .imagem img{width:60%}
+.container .info{float:right}
+.container-box{width:90%;margin:auto}
+.container-cards{margin:10px;justify-content:space-evenly}
+.col{margin:auto}
+.card{border:1px solid #012677!important;display:flex;margin:auto;margin:15px}
 .card .card-title{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;font-weight:700}
 .card .card-text{font-family:Nunito,"Segoe UI",Arial,Tahoma}
+.card .btn{margin-top:10px;font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background-color:#012677;border:none}
+.card .btn:hover{background-color:#00b4fc}
+.card-info{background-color:#b5d7ff;border:1px solid #01267700!important;border-radius:0!important}
+.card-info .card-title{color:#012677}
+.card-info i{margin-right:5px}

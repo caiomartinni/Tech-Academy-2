@@ -15,6 +15,15 @@ body {
             color: $secondary!important;
         }
     }
+    span {
+        .navbar-toggler-icon {
+            color: white;
+        }
+    }
+    .navbar-toggler {
+        color: white;
+        background-color: white;
+    }
 }
 
 main {
@@ -28,6 +37,7 @@ footer {
     font-family: $font1;
     background: $primary!important;
     padding: 20px;
+
     p {
         color: white;
         margin: 0;
@@ -35,8 +45,39 @@ footer {
 }
 
 .container {
+    h1 {
+        font-family: $font1;
+        color: $primary;
+    }
+    .imagem {
+        float: left;
+        img {
+            width: 60%;
+        }
+    }
+    .info {
+        float: right;
+    }
 }
+
+.container-box {
+    width: 90%;
+    margin: auto;
+}
+
+.container-cards {
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.col{
+    margin: auto;
+}
+
 .card {
+    border: 1px solid $primary!important;
+    display: flex;
+    margin: auto;
     .card-title {
         font-family: $font1;
         font-weight: bold;
@@ -44,5 +85,28 @@ footer {
     .card-text {
         font-family: $font2;
     }
+    .btn {
+        margin-top: 10px;
+        font-family: $font1;
+        background-color: $primary;
+        border: none;
+        &:hover {
+            background-color: #00b4fc;
+        }
+    }
+
     margin: 15px;
 }
+
+.card-info {
+    background-color: #b5d7ff;
+    border: 1px solid #01267700 !important;
+    border-radius: 0 !important;
+    .card-title {
+        color: $primary;
+    }
+    i {
+        margin-right: 5px;
+    }
+}
+
