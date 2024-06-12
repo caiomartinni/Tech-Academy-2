@@ -31,13 +31,31 @@ footer {
   font-family: "Exo 2", "Nunito", "Segoe UI", "Arial", "Tahoma";
   background: #012677 !important;
   padding: 20px;
+  text-align: center;
 }
 footer p {
   color: white;
   margin: 0;
 }
+footer ul {
+  list-style: none;
+  padding: 0 !important;
+}
+footer ul li {
+  display: inline-flex;
+  margin: 5px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  color: #00b4fc;
+}
 
 .container h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: "Exo 2", "Nunito", "Segoe UI", "Arial", "Tahoma";
   color: #012677;
 }
@@ -49,6 +67,21 @@ footer p {
 }
 .container .info {
   float: right;
+}
+
+.container-carrousel {
+  display: flex;
+  flex-direction: column;
+}
+.container-carrousel .btn-primary {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #012677 !important;
+  font-family: "Exo 2", "Nunito", "Segoe UI", "Arial", "Tahoma";
+  border: none;
+}
+.container-carrousel .btn-primary:hover {
+  background-color: #00b4fc !important;
 }
 
 .container-box {
@@ -87,6 +120,15 @@ footer p {
 .card .btn:hover {
   background-color: #00b4fc;
 }
+.card .btn-secondary {
+  background-color: white;
+  color: #012677;
+  border: 1px solid #012677;
+}
+.card .btn-secondary:hover {
+  background-color: #012677;
+  color: white;
+}
 
 .card-info {
   background-color: #b5d7ff;
@@ -97,7 +139,27 @@ footer p {
   color: #012677;
 }
 .card-info i {
-  margin-right: 5px;
+  margin-right: 10px;
+}
+
+alert-danger {
+  margin: 10px !important;
+}
+
+.carousel {
+  width: 75%;
+  margin: auto;
+}
+
+.big-botao {
+  width: 75%;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.big-botao:hover {
+  background-color: #00b4fc;
 }
 
 /*# sourceMappingURL=style.css.map */

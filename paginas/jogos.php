@@ -14,15 +14,19 @@ foreach ($dadosApi as $jogo) {
         foreach ($dadosApi as $jogo) {
             ?>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="<?= $jogo->capa ?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $jogo->nome ?></h5>
                         <p class="card-text"><?= $jogo->descricao ?></p>
-                        <a href="#" class="btn btn-primary">
+                            <a href="#" class="btn btn-primary">
+                            <i class="bi bi-controller"></i>
+                                Jogar
+                            </a>
+                            <a href="#" class="btn btn-secondary">
                             <i class="bi bi-plus"></i>
-                            Detalhes
-                        </a>
+                                Mais Detalhes
+                            </a>
                     </div>
                 </div>
             </div>

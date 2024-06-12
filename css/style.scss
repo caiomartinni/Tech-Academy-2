@@ -4,22 +4,27 @@ $font1: 'Exo 2', 'Nunito', 'Segoe UI', 'Arial', 'Tahoma';
 $font2: 'Nunito', 'Segoe UI', 'Arial', 'Tahoma';
 
 body {
-    background-color: #b5d7ff!important;
+    background-color: #b5d7ff !important;
 }
+
 .navbar {
-    font-family: $font1!important;
-    background: $primary!important;
+    font-family: $font1 !important;
+    background: $primary !important;
+
     .nav-link {
-        color: white!important;
+        color: white !important;
+
         &:hover {
-            color: $secondary!important;
+            color: $secondary !important;
         }
     }
+
     span {
         .navbar-toggler-icon {
             color: white;
         }
     }
+
     .navbar-toggler {
         color: white;
         background-color: white;
@@ -28,6 +33,7 @@ body {
 
 main {
     background: #b5d7ff;
+
     p {
         margin: 0;
     }
@@ -35,28 +41,70 @@ main {
 
 footer {
     font-family: $font1;
-    background: $primary!important;
+    background: $primary !important;
     padding: 20px;
+    text-align: center;
 
     p {
         color: white;
         margin: 0;
     }
+
+    ul {
+        list-style: none;
+        padding: 0 !important;
+
+        li {
+            display: inline-flex;
+            margin: 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: $secondary;
+                }
+            }
+        }
+    }
 }
 
 .container {
     h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-family: $font1;
         color: $primary;
     }
+
     .imagem {
         float: left;
+
         img {
             width: 60%;
         }
     }
+
     .info {
         float: right;
+    }
+
+}
+
+.container-carrousel {
+    display: flex;
+    flex-direction: column;
+
+    & .btn-primary {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: $primary !important;
+        font-family: $font1;
+        border: none;
+        &:hover {
+            background-color: $secondary !important;
+        }
     }
 }
 
@@ -70,28 +118,43 @@ footer {
     justify-content: space-evenly;
 }
 
-.col{
+.col {
     margin: auto;
 }
 
 .card {
-    border: 1px solid $primary!important;
+    border: 1px solid $primary !important;
     display: flex;
     margin: auto;
+
     .card-title {
         font-family: $font1;
         font-weight: bold;
     }
+
     .card-text {
         font-family: $font2;
     }
+
     .btn {
         margin-top: 10px;
         font-family: $font1;
         background-color: $primary;
         border: none;
+
         &:hover {
             background-color: #00b4fc;
+        }
+    }
+
+    .btn-secondary {
+        background-color: white;
+        color: $primary;
+        border: 1px solid $primary;
+
+        &:hover {
+            background-color: $primary;
+            color: white;
         }
     }
 
@@ -102,11 +165,32 @@ footer {
     background-color: #b5d7ff;
     border: 1px solid #01267700 !important;
     border-radius: 0 !important;
+
     .card-title {
         color: $primary;
     }
+
     i {
-        margin-right: 5px;
+        margin-right: 10px;
     }
 }
 
+alert-danger {
+    margin: 10px !important;
+}
+
+.carousel {
+    width: 75%;
+    margin: auto;
+}
+
+.big-botao {
+    width: 75%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    &:hover {
+        background-color: $secondary;
+    }
+}

@@ -22,13 +22,14 @@
     $game[2] = array(
 
         "id" => 2,
-        "nome" => "Lost In Paris",
-        "descricao" => "Viva em um mundo onde a cidade de Paris foi abandonada há décadas.",
+        "nome" => "Fuja das Cobras",
+        "descricao" => "Desvie das cobras para vencer este jogo desafiador!",
+        "descricao-full" => "a",
 
-        "criador" => "Drauzio Salles",
+        "criador" => "Eduardo Rigobeli Pereira De Souza",
         "siteJogo" => "https://youtube.com",
 
-        "capa" => "http://localhost/Tech-Academy-2/imagens/banner/paris.png",
+        "capa" => "http://localhost/Tech-Academy-2/imagens/banner/cobra.png",
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
@@ -39,6 +40,7 @@
         "id" => 3,
         "nome" => "Soccer Cat",
         "descricao" => "Já imaginou ser uma grande estrela dos gramados? Mas sendo... um gato fofinho?",
+        "descricao-full" => "a",
 
         "criador" => "Mariano Firmino",
         "siteJogo" => "https://youtube.com",
@@ -52,13 +54,14 @@
     $game[4] = array(
 
         "id" => 4,
-        "nome" => "The Dino Game",
-        "descricao" => "Se divirta com seu pequeno dinossauro coletando os cristais.",
+        "nome" => "Ghost Maze",
+        "descricao" => "Fuja dos soldados para vencer o jogo!",
+        "descricao-full" => "Em Ghost Maze, você assume o papel de um fantasma travesso que deve fugir de militares patrulhando um labirinto enquanto coleta esferas de energia espalhadas pelo caminho. Cada nível do labirinto apresenta desafios únicos e layouts diferentes, onde você precisa evitar os soldados que seguem padrões de movimento predefinidos ou reagem à sua presença. Para ajudar na sua fuga, você pode coletar esferas especiais que concedem poderes temporários, como invisibilidade, atravessar paredes ou aumentar sua velocidade. Com gráficos vibrantes e uma trilha sonora empolgante, Ghost Maze oferece uma experiência nostálgica inspirada em Pac-Man, mas com um toque inovador e envolvente.",
 
-        "criador" => "Caio Martini",
-        "siteJogo" => "https://dinogame.x10.mx",
+        "criador" => "Mariana Franco",
+        "siteJogo" => "#",
 
-        "capa" => "http://localhost/Tech-Academy-2/imagens/banner/dino.png",
+        "capa" => "http://localhost/Tech-Academy-2/imagens/banner/ghost.png",
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
@@ -69,6 +72,7 @@
         "id" => 5,
         "nome" => "The Dino Game",
         "descricao" => "Se divirta com seu pequeno dinossauro coletando os cristais.",
+        "descricao-full" => "a",
 
         "criador" => "Caio Martini",
         "siteJogo" => "https://dinogame.x10.mx",
@@ -84,6 +88,7 @@
         "id" => 6,
         "nome" => "The Dino Game",
         "descricao" => "Se divirta com seu pequeno dinossauro coletando os cristais.",
+        "descricao-full" => "a",
 
         "criador" => "Caio Martini",
         "siteJogo" => "https://dinogame.x10.mx",

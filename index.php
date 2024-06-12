@@ -80,6 +80,23 @@
 
     <footer>
         <p class="text-center">Desenvolvido por Caio Martini</p>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
 
 </body>

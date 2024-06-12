@@ -6,12 +6,19 @@ body{background-color:#b5d7ff!important}
 .navbar .navbar-toggler{color:#fff;background-color:#fff}
 main{background:#b5d7ff}
 main p{margin:0}
-footer{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background:#012677!important;padding:20px}
+footer{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background:#012677!important;padding:20px;text-align:center}
 footer p{color:#fff;margin:0}
-.container h1{font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;color:#012677}
+footer ul{list-style:none;padding:0!important}
+footer ul li{display:inline-flex;margin:5px}
+footer ul li a{text-decoration:none;color:#fff}
+footer ul li a:hover{color:#00b4fc}
+.container h1{margin-top:10px;margin-bottom:10px;font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;color:#012677}
 .container .imagem{float:left}
 .container .imagem img{width:60%}
 .container .info{float:right}
+.container-carrousel{display:flex;flex-direction:column}
+.container-carrousel .btn-primary{margin-top:10px;margin-bottom:10px;background-color:#012677!important;font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;border:none}
+.container-carrousel .btn-primary:hover{background-color:#00b4fc!important}
 .container-box{width:90%;margin:auto}
 .container-cards{margin:10px;justify-content:space-evenly}
 .col{margin:auto}
@@ -20,6 +27,12 @@ footer p{color:#fff;margin:0}
 .card .card-text{font-family:Nunito,"Segoe UI",Arial,Tahoma}
 .card .btn{margin-top:10px;font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background-color:#012677;border:none}
 .card .btn:hover{background-color:#00b4fc}
+.card .btn-secondary{background-color:#fff;color:#012677;border:1px solid #012677}
+.card .btn-secondary:hover{background-color:#012677;color:#fff}
 .card-info{background-color:#b5d7ff;border:1px solid #01267700!important;border-radius:0!important}
 .card-info .card-title{color:#012677}
-.card-info i{margin-right:5px}
+.card-info i{margin-right:10px}
+alert-danger{margin:10px!important}
+.carousel{width:75%;margin:auto}
+.big-botao{width:75%;margin:auto;margin-left:auto;margin-right:auto;text-align:center}
+.big-botao:hover{background-color:#00b4fc}
