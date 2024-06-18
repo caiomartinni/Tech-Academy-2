@@ -29,6 +29,18 @@ body {
         color: white;
         background-color: white;
     }
+
+    .btn-primary {
+        background-color: white;
+        color: $primary;
+        i {
+            margin-right: 5px;
+        }
+        &:hover {
+            background-color: $secondary !important;
+            color: white !important;
+        }
+    }
 }
 
 main {
@@ -44,6 +56,9 @@ footer {
     background: $primary !important;
     padding: 20px;
     text-align: center;
+
+    position: absolute;
+    width: 100%;
 
     p {
         color: white;
@@ -193,4 +208,46 @@ alert-danger {
     &:hover {
         background-color: $secondary;
     }
+}
+
+.form-control {
+    margin: auto;
+}
+
+
+
+form {
+    .form-title {
+        color: $primary;
+    }
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    .form-label {
+        color: $primary;
+    }
+    .form-control {
+        width: 40%;
+        margin: auto!important;
+    }
+    .text-body-secondary {
+        margin: 10px;
+    }
+    .btn-primary {
+        margin-top: 10px;
+        font-family: $font1;
+        background-color: $primary;
+        border: none;
+
+        &:hover {
+            background-color: #00b4fc;
+        }
+    }
+}
+
+.equipe {
+    margin: auto;
 }

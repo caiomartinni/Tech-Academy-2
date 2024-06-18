@@ -8,6 +8,7 @@ foreach ($dadosApi as $jogo) {
 ?>
 
 <div class="container container-box">
+    <h1 class="text-center">JOGOS FAVORITOS</h1>
 
     <div class="container-cards row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xxl-3 row-cols-fluid-4">
         <?php

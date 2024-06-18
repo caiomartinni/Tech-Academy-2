@@ -19,6 +19,17 @@ body {
   color: white;
   background-color: white;
 }
+.navbar .btn-primary {
+  background-color: white;
+  color: #012677;
+}
+.navbar .btn-primary i {
+  margin-right: 5px;
+}
+.navbar .btn-primary:hover {
+  background-color: #00b4fc !important;
+  color: white !important;
+}
 
 main {
   background: #b5d7ff;
@@ -32,6 +43,8 @@ footer {
   background: #012677 !important;
   padding: 20px;
   text-align: center;
+  position: absolute;
+  width: 100%;
 }
 footer p {
   color: white;
@@ -160,6 +173,45 @@ alert-danger {
 }
 .big-botao:hover {
   background-color: #00b4fc;
+}
+
+.form-control {
+  margin: auto;
+}
+
+form {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+form .form-title {
+  color: #012677;
+}
+form .form-label {
+  color: #012677;
+}
+form .form-control {
+  width: 40%;
+  margin: auto !important;
+}
+form .text-body-secondary {
+  margin: 10px;
+}
+form .btn-primary {
+  margin-top: 10px;
+  font-family: "Exo 2", "Nunito", "Segoe UI", "Arial", "Tahoma";
+  background-color: #012677;
+  border: none;
+}
+form .btn-primary:hover {
+  background-color: #00b4fc;
+}
+
+.equipe {
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

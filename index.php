@@ -45,16 +45,21 @@
                         <a class="nav-link" aria-current="page" href="index.php?pagina=home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?pagina=jogos">Jogos</a>
+                        <a class="nav-link" href="index.php?pagina=login">Jogos Favoritos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="index.php?pagina=sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php?pagina=contato">Contato</a>
                     </li>
                 </ul>
+                <a class="d-flex btn btn-primary" type="submit" href="index.php?pagina=login">
+            <i class="bi bi-door-open"></i>              
+            Entre ou cadastre-se
+            </a>
             </div>
+            
         </div>
     </nav>
 
