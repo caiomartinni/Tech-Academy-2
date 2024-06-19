@@ -16,7 +16,7 @@ foreach ($dadosApi as $jogo) {
             ?>
             <div class="col">
                 <div class="card">
-                    <img src="<?= $jogo->capa ?>" class="card-img-top" alt="...">
+                    <img src="<?= $jogo->capa ?>" class="card-img-top" alt="<?= $jogo->nome ?>">
                     <div class="card-body">
                         <h5 class="card-title"><?= $jogo->nome ?></h5>
                         <p class="card-text"><?= $jogo->descricao ?></p>

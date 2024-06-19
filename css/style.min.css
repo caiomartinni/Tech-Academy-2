@@ -37,6 +37,7 @@ footer ul li a:hover{color:#00b4fc}
 .card-info i{margin-right:10px}
 alert-danger{margin:10px!important}
 .carousel{width:75%;margin:auto}
+.carousel .carousel-inner .carousel-item img{border-radius:20px;border:1px solid #012677}
 .big-botao{width:75%;margin:auto;margin-left:auto;margin-right:auto;text-align:center}
 .big-botao:hover{background-color:#00b4fc}
 .form-control{margin:auto}
@@ -47,4 +48,8 @@ form .form-control{width:40%;margin:auto!important}
 form .text-body-secondary{margin:10px}
 form .btn-primary{margin-top:10px;font-family:"Exo 2",Nunito,"Segoe UI",Arial,Tahoma;background-color:#012677;border:none}
 form .btn-primary:hover{background-color:#00b4fc}
-.equipe{margin:auto}
+.equipe{margin-left:auto;margin-right:auto;color:#012677}
+.col-md-8 ul{list-style:none;padding:0!important}
+.col-md-8 ul li{display:inline-flex;margin-left:5px;margin-right:5px}
+.col-md-8 ul li a{text-decoration:none;color:#00b4fc}
+.col-md-8 ul li a:hover{color:#012677}

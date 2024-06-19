@@ -163,6 +163,10 @@ alert-danger {
   width: 75%;
   margin: auto;
 }
+.carousel .carousel-inner .carousel-item img {
+  border-radius: 20px;
+  border: 1px solid #012677;
+}
 
 .big-botao {
   width: 75%;
@@ -211,7 +215,26 @@ form .btn-primary:hover {
 }
 
 .equipe {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: #012677;
+}
+
+.col-md-8 ul {
+  list-style: none;
+  padding: 0 !important;
+}
+.col-md-8 ul li {
+  display: inline-flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.col-md-8 ul li a {
+  text-decoration: none;
+  color: #00b4fc;
+}
+.col-md-8 ul li a:hover {
+  color: #012677;
 }
 
 /*# sourceMappingURL=style.css.map */

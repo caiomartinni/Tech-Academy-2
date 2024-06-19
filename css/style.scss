@@ -197,6 +197,14 @@ alert-danger {
 .carousel {
     width: 75%;
     margin: auto;
+    .carousel-inner {
+        .carousel-item {
+            img {
+                border-radius: 20px;
+                border: 1px solid $primary;
+            }
+        }
+    }
 }
 
 .big-botao {
@@ -249,5 +257,27 @@ form {
 }
 
 .equipe {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: $primary;
 }
+
+.col-md-8 ul {
+        list-style: none;
+        padding: 0 !important;
+
+        li {
+            display: inline-flex;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            a {
+                text-decoration: none;
+                color: $secondary;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
