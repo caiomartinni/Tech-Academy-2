@@ -7,7 +7,7 @@
     <title>ArcadeHub</title>
 
     <link rel="shortcut icon" href="imagens/logo/icone.png">
-
+    <base href="http://localhost/Tech-Academy-2/">
     <!--Fontes: Exo 2, Nunito-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,16 +42,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php?pagina=home">Home</a>
+                        <a class="nav-link" aria-current="page" href="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?pagina=login">Jogos Favoritos</a>
+                        <a class="nav-link" href="login">Jogos Favoritos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?pagina=sobre">Sobre</a>
+                        <a class="nav-link" href="sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?pagina=contato">Contato</a>
+                        <a class="nav-link" href="contato">Contato</a>
                     </li>
                 </ul>
                 <a class="d-flex btn btn-primary" type="submit" href="index.php?pagina=login">
@@ -64,23 +64,30 @@
     </nav>
 
     <main>
-        <?php
-        //imprimir o conteúdo do array do GET
-        //print_r($_GET);
-        
-        //recuperar a variável página
-        $pagina = $_GET["pagina"] ?? "home";
+<!-- Comeco PHP BASE -->
+<?php
+        if (isset($_GET["param"])) {
+            $param = $_GET["param"];
+            $p = explode("/", $param);
+        }
 
-        //paginas / home.php
-        $pagina = "paginas/{$pagina}.php";
+        $page = $p[0] ?? "home";
+        $jogo = $p[1] ?? NULL;
 
-        //verificar se o arquivo existe
+        if ($page == "games") {
+            $pagina = "paginas/{$jogo}.php";
+        } else {
+            $pagina = "paginas/{$page}.php";
+        }
+
         if (file_exists($pagina)) {
             include $pagina;
         } else {
             include "paginas/erro.php";
         }
         ?>
+        <!-- Final PHP BASE -->
+        
     </main>
 
     <footer>

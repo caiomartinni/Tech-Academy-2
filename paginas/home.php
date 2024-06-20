@@ -69,14 +69,14 @@ foreach ($dadosApi as $jogo) {
                     <div class="card-body">
                         <h5 class="card-title"><?= $jogo->nome ?></h5>
                         <p class="card-text"><?= $jogo->descricao ?></p>
-                            <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary">
                             <i class="bi bi-controller"></i>
-                                Jogar
-                            </a>
-                            <a href="#" class="btn btn-secondary">
+                            Jogar
+                        </a>
+                        <a href="game/<?= $jogo->id ?>" class="btn btn-secondary">
                             <i class="bi bi-plus"></i>
-                                Mais Detalhes
-                            </a>
+                            Mais Detalhes
+                        </a>
                     </div>
                 </div>
             </div>
