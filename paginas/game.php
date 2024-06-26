@@ -19,23 +19,19 @@ $jogo = $dadosApi->$id;
       <div class="card-body">
         <h1 class="card-title"><?= $jogo->nome ?></h1>
         <p class="card-text"><?= $jogo->descricaofull ?></p>
-        <p class="card-text"><small class="text-body-secondary"><strong>Criador:</strong> Caio Martini Lima</small></p>
+        <p class="card-text"><small class="text-body-secondary"><strong>Criador: </strong> <?= $jogo->criador ?></small></p>
         <br>
-        <a class="btn btn-primary" href="#">
+        <a class="btn btn-primary" href="<?= $jogo->siteJogo ?>">
           <i class="bi bi-globe"></i>
           Site Oficial do Jogo
         </a>
-        <a class="btn btn-primary" href="#">
+        <a class="btn btn-primary" href="jogos/<?= $jogo->short ?>/index.html">
           <i class="bi bi-controller"></i>
           Jogue Agora
         </a>
-        <a class="btn btn-primary" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i class="bi bi-star-fill"></i>
           Adicionar aos favoritos
-        </a>
-        <a class="btn btn-primary">
-          <i class="bi bi-download"></i>
-          Baixar .c3p
         </a>
       </div>
     </div>

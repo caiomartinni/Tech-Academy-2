@@ -17,6 +17,8 @@
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
+        "short" => "dino",
+        "c3p" => "http://localhost/Tech-Academy-2/c3p/dino.c3p",
     );
 
     $game[2] = array(
@@ -33,6 +35,8 @@
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
+        "short" => "cobra",
+
     );
 
     $game[3] = array(
@@ -49,6 +53,8 @@
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
+        "short" => "cat",
+
     );
 
     $game[4] = array(
@@ -65,6 +71,8 @@
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
+        "short" => "ghost",
+
     );
 
     $game[5] = array(
@@ -75,28 +83,32 @@
         "descricaofull" => "a",
 
         "criador" => "Matheus Henrique do Nascimento",
-        "siteJogo" => "https://dinogame.x10.mx",
+        "siteJogo" => "https://construct.net",
 
         "capa" => "http://localhost/Tech-Academy-2/imagens/banner/king.png",
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
+        "short" => "king",
+
     );
 
     $game[6] = array(
 
         "id" => 6,
-        "nome" => "The Dino Game",
+        "nome" => "The Cold Climb",
         "descricao" => "Se divirta com seu pequeno dinossauro coletando os cristais.",
         "descricaofull" => "a",
 
         "criador" => "Caio Martini",
-        "siteJogo" => "https://dinogame.x10.mx",
+        "siteJogo" => "https://construct.net",
 
-        "capa" => "http://localhost/Tech-Academy-2/imagens/banner/dino.png",
+        "capa" => "http://localhost/Tech-Academy-2/imagens/banner/coldclimb.png",
         "foto1" => "",
         "foto2" => "",
         "foto3" => "",
+        "short" => "coldclimb",
+
     );
 
 

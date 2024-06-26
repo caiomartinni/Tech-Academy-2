@@ -9,9 +9,26 @@ foreach ($dadosApi as $membro) {
 
 <div class="container text-center">
     <h1>SOBRE O ARCADEHUB</h1>
-    <p>O ArcadeHub foi criado com o objetivo de entreter aquelas pe</p>
-
-    <h1>EQUIPE</h1>
+    <p style="width: 60%; margin: auto;">O ArcadeHub foi criado com o objetivo de entreter aquelas pessoas que buscam
+        diversão e desafios rápidos,
+        acessíveis e empolgantes. Nascido da paixão por jogos e da vontade de proporcionar experiências memoráveis,
+        nosso site é o destino perfeito para quem deseja se desconectar da rotina e mergulhar em um mundo de aventuras.
+    </p>
+    <p style="width: 60%; margin: auto;">Todos os nossos jogos são gratuitos e podem ser jogados diretamente no
+        navegador, sem a necessidade de downloads ou instalações complicadas. Basta acessar o site, escolher o seu jogo
+        favorito e começar a se divertir.</p>
+    <p style="width: 60%; margin: auto;">
+        No ArcadeHub, nossa missão é trazer alegria e entretenimento de qualidade para pessoas de todas as idades.
+        Acreditamos que os jogos são uma forma poderosa de relaxamento e aprendizado, estimulando a criatividade, a
+        resolução de problemas e a coordenação.
+    </p>
+    <p class="text-center" style="width: 60%; margin: auto;">
+        Estamos apenas começando e queremos que você faça parte dessa jornada. Acesse o ArcadeHub agora mesmo, descubra
+        seus jogos favoritos e embarque em aventuras inesquecíveis. Quer você esteja procurando por uma rápida diversão
+        ou um desafio mais intenso, o ArcadeHub tem tudo o que você precisa.
+    </p>
+    
+    <h1>EQUIPE RESPONSÁVEL</h1>
     <?php
     foreach ($dadosApi as $membro) {
         ?>
@@ -28,17 +45,17 @@ foreach ($dadosApi as $membro) {
                     </div>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="https://github.com">
                                 <i class="bi bi-github"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://instagram.com">
                                 <i class="bi bi-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://linkedin.com">
                                 <i class="bi bi-linkedin"></i>
                             </a>
                         </li>
@@ -51,4 +68,3 @@ foreach ($dadosApi as $membro) {
     }
     ?>
 </div>
-

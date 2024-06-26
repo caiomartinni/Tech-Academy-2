@@ -54,7 +54,7 @@
                         <a class="nav-link" href="contato">Contato</a>
                     </li>
                 </ul>
-                <a class="d-flex btn btn-primary" type="submit" href="index.php?pagina=login">
+                <a class="d-flex btn btn-primary" type="submit" href="login">
             <i class="bi bi-door-open"></i>              
             Entre ou cadastre-se
             </a>
