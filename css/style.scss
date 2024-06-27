@@ -311,3 +311,12 @@ form {
         }
     }
 }
+
+.container-erro {
+    border: 2px solid rgb(135, 1, 1) !important;
+    border-radius: 10px !important;
+    background-color: rgb(255, 130, 130) !important;
+    h1 {color: rgb(135, 1, 1)!important;}
+    width: 50%;
+    margin-left: 60px !important;
+}

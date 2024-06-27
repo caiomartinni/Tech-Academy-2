@@ -16,12 +16,12 @@
             Entrar
         </button>
 
-        <p class="text-body-secondary">Esqueceu sua senha? <a href="#">Clique Aqui</a></p>
-        <p class="text-body-secondary">Não é registrado? <a href="#">Clique Aqui</a></p>
+        <p class="text-body-secondary">Esqueceu sua senha? <a href="erro">Clique Aqui</a></p>
+        <p class="text-body-secondary">Não é registrado? <a href="erro">Clique Aqui</a></p>
     </form>
     <br>
-    <Br>
-    <Br>
+    <br>
+    <br>
 </div>
 
 

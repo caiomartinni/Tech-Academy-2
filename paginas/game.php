@@ -37,6 +37,22 @@ $jogo = $dadosApi->$id;
     </div>
   </div>
 </div>
+<div class="container text-center">
+  <h1>GALERIA DO JOGO</h1>
+    <img style="width: 70%; border: 2px solid #012677; border-radius: 10px;"src="<?= $jogo->foto1 ?>">
+    <br>
+    <br>
+    <img style="width: 70%; border: 2px solid #012677; border-radius: 10px;"src="<?= $jogo->foto2 ?>">
+    <br>
+    <br>
+    <br>
+</div>
+
+
+
+
+
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">

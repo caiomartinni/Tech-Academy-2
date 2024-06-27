@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     };
 
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      mensagem("Escreva um email válido");
+      mensagem("Endereço de e-mail inválido");
     };
 };
 ?>

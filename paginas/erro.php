@@ -1,4 +1,4 @@
-<div class="alert alert-danger" role="alert">
-    <p><strong>Erro</strong></p>
-    <p>Não foi possível encontrar a página solicitada!</p>
+    <div class="container">
+        <img style="width: 100%; margin: 30px" src="./imagens/erro.png" alt="Erro" title="Erro">
+    </div>    
 </div>

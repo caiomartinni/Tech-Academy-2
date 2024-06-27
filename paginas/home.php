@@ -12,21 +12,24 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./imagens/screenshots/dino1.png" class="d-block w-100" alt="..."  style=" opacity: 60% !important;">
+                <img src="./imagens/screenshots/dino2.jpg" class="d-block w-100" alt="The Dino Game" title="The Dino Game"
+                    style=" opacity: 60% !important;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>The Dino Game</h5>
                     <p>Se divirta com seu pequeno dinossauro coletando os cristais.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./imagens/screenshots/ghost1.png" class="d-block w-100" alt="..."  style=" opacity: 60% !important;">
+                <img src="./imagens/screenshots/ghost1.jpg" class="d-block w-100" alt="Ghost Maze" title="Ghost Maze"
+                    style=" opacity: 60% !important;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Ghost Maze</h5>
                     <p>Fuja dos soldados para vencer o jogo!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./imagens/screenshots/cobra1.png" class="d-block w-100" alt="..."  style=" opacity: 60% !important;">
+                <img src="./imagens/screenshots/cobra1.png" class="d-block w-100" alt="Fuja das Cobras" title="Fuja das Cobras"
+                    style=" opacity: 60% !important;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Fuja das Cobras</h5>
                     <p>Desvie das cobras para vencer este jogo desafiador!</p>
@@ -63,24 +66,24 @@ foreach ($dadosApi as $jogo) {
         <?php
         foreach ($dadosApi as $jogo) {
             ?>
-            <div class="col">
-                <div class="card">
-                    <img src="<?= $jogo->capa ?>" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><?= $jogo->nome ?></h5>
-                        <p class="card-text"><?= $jogo->descricao ?></p>
-                        <a href="jogos/<?= $jogo->short ?>/index.html" class="btn btn-primary">
-                            <i class="bi bi-controller"></i>
-                            Jogar
-                        </a>
-                        <a href="game/<?= $jogo->id ?>" class="btn btn-secondary">
-                            <i class="bi bi-plus"></i>
-                            Mais Detalhes
-                        </a>
+
+                <div class="col" data-aos="flip-down">
+                    <div class="card">
+                        <img src="<?= $jogo->capa ?>" class="card-img-top" alt="<?= $jogo->nome ?>" title="<?= $jogo->nome ?>">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $jogo->nome ?></h5>
+                            <p class="card-text"><?= $jogo->descricao ?></p>
+                            <a href="jogos/<?= $jogo->short ?>/index.html" class="btn btn-primary">
+                                <i class="bi bi-controller"></i>
+                                Jogar
+                            </a>
+                            <a href="game/<?= $jogo->id ?>" class="btn btn-secondary">
+                                <i class="bi bi-plus"></i>
+                                Mais Detalhes
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
             <?php
         }
         ?>

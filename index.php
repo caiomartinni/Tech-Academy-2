@@ -22,16 +22,21 @@
 
     <!--Ícones do Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Animações na página-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <!--Importar animações-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!--Importar Bootstrap-->
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="home">
                 <img src="imagens/logo/logo-h-white2.png" alt="ArcadeHub" title="ArcadeHub" width="200px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -94,23 +99,25 @@
         <p class="text-center">Desenvolvido por Caio Martini</p>
         <ul>
             <li>
-                <a href="#">
+                <a href="https://github.com/caiomartinni">
                     <i class="bi bi-github"></i>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="https://instagram.com/caiomartinni">
                     <i class="bi bi-instagram"></i>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="https://linkedin.com/caiomartinni">
                     <i class="bi bi-linkedin"></i>
                 </a>
             </li>
         </ul>
     </footer>
-
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

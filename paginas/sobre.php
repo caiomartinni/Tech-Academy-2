@@ -35,7 +35,7 @@ foreach ($dadosApi as $membro) {
         <div class="card mb-3 equipe" style="max-width: 540px">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="<?= $membro->foto ?>" class="img-fluid rounded-start" alt="...">
+                    <img src="<?= $membro->foto ?>" class="img-fluid rounded-start" alt="<?= $membro->nome ?>" title="<?= $membro->nome ?>">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body card-body-equipe">
